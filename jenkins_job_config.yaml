@@ -3,6 +3,6 @@ folders:
     description: "odin service jobs"
 jobs:
   - job_path: "odin/build_job"
-      jenkinsfile_git_repo: "https://github.com/ecsworkshopee/odin.git"
-      jenkinsfile_path: "Jenkinsfile"
-      auto_trigger: true
+    jenkinsfile_git_repo: "https://github.com/ecsworkshopee/odin.git"
+    jenkinsfile_path: "Jenkinsfile"
+    auto_trigger: true
